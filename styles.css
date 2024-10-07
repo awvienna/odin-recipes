@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    font-weight: 250;
+}
+
+h2, h3 {
+    background-color: rgb(220, 186, 136);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.main-title {
+    text-align: center;
+    background-color: rgb(225, 207, 154);
+    font-weight: 250;
+    text-decoration: underline;
+}
+
+li, .description {
+   margin: 10px;
+   font-size: 22px;
+   text-align: justify;
+}
+
+.foodpic {
+    display: block;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 15px auto 50px;
+}
+
+#lasagnapic,
+#picanhapic {
+    display: block;
+    max-height: auto;
+    max-width: 500px;
+    margin: 15px auto 50px;
+}
+
+ol li {
+    font-size: 17px;
+}
