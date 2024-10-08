@@ -1,44 +1,90 @@
 body {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(235, 216, 191);
     font-weight: 250;
-}
-
-h2, h3 {
-    background-color: rgb(220, 186, 136);
-    text-align: center;
-    text-decoration: underline;
-    font-weight: 100;
+    margin: 0;
+    padding: 0;
 }
 
 .main-title {
     text-align: center;
     background-color: rgb(225, 207, 154);
-    font-weight: 250;
-    text-decoration: underline;
+    border: 1px rgb(139, 111, 111) solid;
+    color: #8e7979;
+    font-weight: 150;
+    max-width: 400px;
+    margin: 15px auto 40px;
+    padding: 8px;
 }
 
-li, .description {
-   margin: 10px;
+.mainlistblock {
+    background-color: rgb(225, 207, 154);
+    border: 1px rgb(139, 111, 111) solid;
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 15px
+}
+
+.recipes li {
+    display: inline-block;
+    background-color: #a2a39ac6;
+    border: 1px rgb(139, 111, 111) solid;
+    margin: 5px 15px;
+    padding: 8px;
+}
+
+li a {
+    color:rgb(241, 239, 237);
+}
+
+li a:active {
+    color:rgb(144, 125, 106);
+}
+
+h2, h3 {
+    background-color: rgb(225, 207, 154);
+    border: 1px rgb(139, 111, 111) solid;
+    color: #8e7979;
+    text-align: center;
+    font-weight: 100;
+    max-width: 800px;
+    margin: 15px auto 20px;
+    padding: 8px;
+}
+
+.description {
+    max-width: 800px;
+    color: #8e7979;
+   margin: 10px auto 30px;
    font-size: 22px;
-   text-align: justify;
+   padding: 8px;
+   text-align: center;
 }
 
-.foodpic {
-    display: block;
-    max-height: 300px;
-    max-width: 300px;
-    margin: 15px auto 50px;
+.ingredientlist {
+    max-width: 800px;
+    margin: 20px auto 30px;
+    color: #8e7979;
+}
+
+ul.ingredientlist li,
+ol.instructions li {
+    margin-bottom: 15px;
+}
+
+.instructions {
+    max-width: 800px;
+    font-size: 17px;
+    margin: 15px auto;
+    color: #8e7979;
 }
 
 #lasagnapic,
-#picanhapic {
+#picanhapic,
+#sushipic {
     display: block;
     max-height: auto;
     max-width: 500px;
     margin: 15px auto 50px;
 }
 
-ol li {
-    font-size: 17px;
-}
